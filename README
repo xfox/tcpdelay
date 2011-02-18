@@ -1,0 +1,15 @@
+Simple tcp proxy based on twisted framework with packet delay
+May be useful for testing purposes
+
+usage: Usage tcpdelay.py [options] arg
+
+Example:
+python tcpdelay.py -H yandex.ru -p 80 -l 8001 -d 5
+
+options:
+-h,         --help            show this help message and exit
+-H HOST,    --host=HOST  
+-p PORT,    --port=PORT  
+-l LISTEN,  --listen=LISTEN
+ -d DELAY,  --delay=DELAY
+
